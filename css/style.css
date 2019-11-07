@@ -11,40 +11,71 @@
     font-family: 'Staat';
     src: url('fonts/Staatliches-Regular.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'Outline';
+    src: url('fonts/LondrinaOutline-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Regular';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+html {
+    background: url(../images/mainback.jpg) left center no-repeat;
+    margin: 0;
+}
 body {
     margin: 0; 
-    padding: 0; 
     
-    background: url(../images/mainback.jpg) left center no-repeat;
 }
 
 
 body > header {
-    width: 100%;
-    
-}
-
-header {
-    font-family: Staat;
-    border: black solid 2px;
+   
+    margin-top: 0;
+    font-family: Outline;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    color: white;
-    font-size: 2em;
-    background-color :rgba(7, 25, 77, 0.384);  
+    color: black;
+    font-size: 2.4em;
+    background-color :rgba(255, 232, 27, 0.384);  
     width: 100%; 
+    border-bottom: solid black 2px;
+    box-shadow: lightslategrey 2px 2px 2px 2px;
+}
+
+a {
+    font-family: Staat;
+    text-decoration: none;
+  outline: 0;
+  color: #09110d;
+ 
+
+          transition: color .5s ease-out, underline .5s ease-out;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline ;
+    color: #353a38;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.box1 {
+    font-size: 2em;
+    background-color: rgba(184, 3, 3, 0.404);
 }
 article {
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 2%;
-    margin: 0 auto;
-	width: 100%;
-	max-width: 1020px;
-	min-width: 640px;
-    background-color :rgba(137, 184, 147, 0.651);  
+    margin-left: 20px;
+    
+    
+}
+article h2 {
     font-family: Roboto-Black;
-    font-size: 2em;
+    padding: 2%;
+    margin: 0;
+}
+article blockquote {
+    font-family: Regular;
+    margin: 0;
 }
