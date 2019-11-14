@@ -42,7 +42,7 @@ div.headtxt {
   }
   div.headtxt:first-of-type {   
                         
-    animation: reveal 3s ;
+    animation: reveal 5s ;
 
   }
   @keyframes showup {
@@ -89,6 +89,64 @@ a {
 
           transition: color .5s ease-out, underline .5s ease-out;
 }
+.paper {
+    box-sizing: border-box;
+    border: black solid 1px;
+    margin-left: 6em;
+    width: 50%;
+    background: rgb(250, 240, 220);
+    box-shadow: rgb(66, 66, 66) 0 10px 10px 0;
+
+    font-family: Noto;
+    height: 23em;
+    z-index: 9999;
+    position: absolute;
+}
+.paper h2 {
+    margin-left: 0.5em;
+    padding-bottom: .5em;
+    background: blue;
+    border: solid blue 1px;
+    border-radius: 0px 0px 5px 5px;
+    width: 40%;
+}
+hr {
+    width: 90%;
+}
+.paper .Lside {
+    border-right: 1px solid black;
+    margin-left: 1em;
+    padding-right: 1%;
+    max-width: 50%;
+    border-right: black solid 1px;
+    height: 60%;
+    background: rgb(246, 248, 115);
+    font-size: 0.6em;
+}
+.pback {
+    box-sizing: border-box;
+    border: black solid 1px;
+    box-shadow: rgb(66, 66, 66) 3px 3px 3px 3px;
+    margin-left: 6em;
+    width: 51%;
+    font-family: Noto;
+    height: 23em;
+    z-index: 0;
+    background: rgb(250, 240, 220);
+    position: absolute;
+}
+.pback2 {
+    box-sizing: border-box;
+    border: black solid 1px ;
+    margin-left: 6em;
+    width: 50.5%;
+    font-family: Noto;
+    height: 23em;
+    z-index: 0;
+    position: absolute;
+    background: rgb(250, 240, 220);
+
+}
 a:hover{
     cursor: pointer;
     text-decoration: underline;
@@ -96,6 +154,9 @@ a:hover{
     color: #353a38;
     text-decoration-style: initial;
     text-decoration-color: initial;
+}
+.sidenav span a {
+    margin-top: 15em;
 }
 .box1 {
     font-size: 2em;
@@ -143,9 +204,6 @@ article blockquote {
     cursor: pointer;
     outline: none;
   }
-  .sidenav span a {
-    margin-top: 15em;
-}
   
   /* On mouse-over */
   .sidenav a:hover, .dropdown-btn:hover {
