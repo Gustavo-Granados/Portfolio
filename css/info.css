@@ -96,7 +96,7 @@ a {
     width: 50%;
     background: rgb(250, 240, 220);
     box-shadow: rgb(66, 66, 66) 0 10px 10px 0;
-
+    margin-bottom: 30px;
     font-family: Noto;
     height: 23em;
     z-index: 9999;
@@ -105,8 +105,7 @@ a {
 .paper h2 {
     margin-left: 0.5em;
     padding-bottom: .5em;
-    background: blue;
-    border: solid blue 1px;
+  
     border-radius: 0px 0px 5px 5px;
     width: 40%;
 }
@@ -120,7 +119,6 @@ hr {
     max-width: 50%;
     border-right: black solid 1px;
     height: 60%;
-    background: rgb(246, 248, 115);
     font-size: 0.6em;
 }
 .pback {
