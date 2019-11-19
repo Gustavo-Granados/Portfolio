@@ -1,4 +1,5 @@
 
+
 @font-face {
     font-family: 'Nunito';
     src: url('fonts/Nunito-Black.ttf') format('truetype');
@@ -27,6 +28,7 @@
     font-family: 'Noto';
     src: url('fonts/NotoSans-Regular.ttf') format('truetype');
 }
+ 
 html {
     
     margin: 0;
@@ -179,7 +181,7 @@ article blockquote {
   
   div.headtxt:first-of-type {   
                         
-    animation: showup 5s ;
+    animation: showup 7s ;
   }
   
   

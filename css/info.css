@@ -112,6 +112,10 @@ a {
 hr {
     width: 90%;
 }
+.paper span {
+    margin-left: 50px;
+    color: rgb(90, 90, 90);
+}
 .paper .Lside {
     border-right: 1px solid black;
     margin-left: 1em;

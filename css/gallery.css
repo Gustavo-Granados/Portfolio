@@ -40,6 +40,9 @@ div.headtxt {
     white-space:nowrap;
     font-size: 2.8vw;
   }
+  img {
+      animation: showup 32s;
+  }
   div.headtxt:first-of-type {   
                         
     animation: reveal 3s ;
@@ -75,7 +78,7 @@ body > header {
     color: black;
     
     background-color :rgb(255, 238, 0);  
-    width: 88%; 
+    width: 100%; 
     border-bottom: solid black 2px;
     box-shadow: lightslategrey 2px 2px 2px 2px;
 }
@@ -89,16 +92,19 @@ a {
 
           transition: color .5s ease-out, underline .5s ease-out;
 }
-a:hover{
+a .imglist:hover{
     cursor: pointer;
-    text-decoration: underline;
-    text-decoration-line: underline ;
-    color: #353a38;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
+    
+    background-color: #4546458c;
+    transition: color .5s ease-out
 }
-.box1 {
-    font-size: 2em;
+.imglist {
+    height: 5em;
+    width: 5em;
+    margin: 4em;
+    padding: 1em;
+    border: black solid 2px;
+    border-radius: 25px;
 }
 article {
     margin-left: 20px;
@@ -116,6 +122,7 @@ article blockquote {
 }
 /* Fixed sidenav, full height */
 .sidenav {
+    display: none;
     height: 100%;
     width: 200px;
     position: fixed;
