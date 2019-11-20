@@ -181,13 +181,13 @@ article blockquote {
   
   div.headtxt:first-of-type {   
                         
-    animation: showup 7s ;
+animation: showup 3s ease-in;
   }
   
   
   div.headtxt:last-of-type span {
       margin-left: 5px;
-    animation: slidein 7s ;
+    animation: slidein 3s ;
   }
   
   @keyframes showup {
