@@ -41,7 +41,8 @@ div.headtxt {
     font-size: 2.8vw;
   }
   img {
-      animation: showup 32s;
+      
+    animation: showup 2s;
   }
   div.headtxt:first-of-type {   
                         
@@ -50,9 +51,13 @@ div.headtxt {
   }
   @keyframes showup {
     0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
+    30% {opacity:0;}
+    35% {opacity: 0.3;}
+    40% {opacity:0.4;}
+    50% {opacity:0.5;}
+    60% {opacity:0.7;}
+    100% {opacity:1;}
+    
 }
 
 @keyframes slidein {
@@ -122,40 +127,32 @@ article blockquote {
 }
 /* Fixed sidenav, full height */
 .sidenav {
-    display: none;
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: rgb(83, 188, 192);
-    overflow-x: hidden;
-    padding-top: 20px;
-    border-left: 2px solid black;
-    box-shadow: slategray 2px 2px 2px 0px;
+    float: left;
+
   }
-  
+  .box1 {
+      margin-left: 20em;
+  }
+  .sidenav a:hover>span{
+      color: black;
+  }
   /* Style the sidenav links and the dropdown button */
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #292020;
-    display: block;
-    border: none;
     background: none;
     width: 100%;
     text-align: center;
     cursor: pointer;
-    outline: none;
   }
   .sidenav span a {
     margin-top: 15em;
 }
   
   /* On mouse-over */
-  .sidenav a:hover, .dropdown-btn:hover {
-    color: #f1f1f1;
+  .sidenav a:hover {
+    color: #ffffff;
     overflow-x: visible;
   }

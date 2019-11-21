@@ -110,18 +110,15 @@ a:hover{
     font-size: 2em;
 }
 article {
-    margin-left: 20px;
+    margin-left:10em;
     
     
 }
-article h2 {
-    font-family: Roboto-Black;
-    padding: 2%;
-    margin: 0;
-}
+
 article blockquote {
     font-family: Regular;
-    margin: 0;
+    margin-top: 3em;
+    max-width: 20em;
 }
 /* Fixed sidenav, full height */
 .sidenav {
@@ -181,26 +178,24 @@ article blockquote {
   
   div.headtxt:first-of-type {   
                         
-animation: showup 3s ease-in;
+animation: showup 5s ease-in;
   }
   
   
   div.headtxt:last-of-type span {
       margin-left: 5px;
-    animation: slidein 3s ;
+    animation: slidein 5s ;
   }
   
   @keyframes showup {
       0% {opacity:0;}
       20% {opacity:1;}
-      80% {opacity:1;}
-      100% {opacity:0;}
+      100% {opacity:1;}
   }
   
   @keyframes slidein {
       0% { margin-left:-800px; }
       20% { margin-left:-800px; }
-      35% { margin-left:0px; }
       100% { margin-left:0px; }
   }
   
@@ -208,6 +203,5 @@ animation: showup 3s ease-in;
       0% {opacity:0;width:0px;}
       20% {opacity:1;width:0px;}
       30% {width:355px;}
-      80% {opacity:1;}
-      100% {opacity:0;width:355px;}
+        100% {opacity:1;}
   }
