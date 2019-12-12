@@ -125,13 +125,18 @@ article blockquote {
     font-family: Regular;
     margin: 0;
 }
+article a img:hover {
+    opacity: 0.5;
+    transition: 1.5s ease ;
+}
+
 /* Fixed sidenav, full height */
 .sidenav {
     float: left;
 
   }
   .box1 {
-      margin-left: 20em;
+      margin-left: 1em;
   }
   .sidenav a:hover>span{
       color: black;

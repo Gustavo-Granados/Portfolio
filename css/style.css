@@ -48,15 +48,20 @@ body > header {
     font-family: Meri;
     text-align: center;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     color: black;
     
     background-color :rgb(255, 238, 0);  
-    width: 86.8%; 
+    width: 100%; 
     border-bottom: solid black 2px;
     box-shadow: lightslategrey 2px 2px 2px 2px;
 }
+nav a {
+    padding: 1.5%;
+    border: black solid 2px;
+    
 
+}
 .homepic {
     position: absolute;
     width: 75px;
@@ -113,53 +118,52 @@ a:hover{
 .box1 {
     font-size: 2em;
 }
-article {
+article img.box2{
+    float: left;
+    display: block;
+    width: 60%;
+    height: auto;
+}
+img {   
+    border: black solid 2px; 
+    float: left;
     
 }
-
-article blockquote {
+h1 {
+    margin-left: 20px;
+    font-size: xx-large;
+}
+article  {
     font-family: Regular;
     margin-top: 3em;
-    max-width: 50%;
 }
 /* Fixed sidenav, full height */
-.sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    
-    top: 0;
-    right: 0;
-    background-color: rgb(83, 188, 192);
-    overflow-x: hidden;
-    padding-top: 20px;
-    border-left: 2px solid black;
-    box-shadow: slategray 2px 2px 2px 0px;
-  }
+
   
   /* Style the sidenav links and the dropdown button */
   .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 2%;
+    
     text-decoration: none;
     font-size: 25px;
     color: #292020;
-    display: block;
     border: none;
     background: none;
-    width: 100%;
-    text-align: center;
+    width: 95%;
     cursor: pointer;
     outline: none;
   }
   
   /* On mouse-over */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ffffff;
     overflow-x: visible;
   }
 
-  
+  footer {
+      background: grey;
+      display: block;
+  }
   /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
  
   
@@ -172,6 +176,7 @@ article blockquote {
     .sidenav a {font-size: 18px;}
   }
   div.headtxt {
+    padding-top: 3%;
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
