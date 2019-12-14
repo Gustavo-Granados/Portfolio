@@ -47,8 +47,8 @@ body > header {
    
     font-family: Meri;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: black;
     
     background-color :rgb(255, 238, 0);  
@@ -73,12 +73,15 @@ nav a {
 }
 .box2 {
     visibility: hidden;
+    display: none;
 }
 .box3 {
     visibility: hidden;
+    display: none;
 }
 .box4 {
     visibility: hidden;
+    display: none;
 }
 .homepic:hover {
     opacity: 0;
@@ -130,12 +133,13 @@ article img.box2{
     height: auto;
 }
 
-h1.name{
-    text-align: right;
-    margin-left: 8px;
-    margin-top: -15px;
+.name{
+
+    float: left;
     font-size: 1.2em;
     position: fixed;
+    right: 0px;
+    top: 0px;
 }
 article  {  
     font-family: Regular;
@@ -194,17 +198,17 @@ a:hover>div {
   
   div.headtxt:first-of-type {   
     margin-left: auto;                    
-animation: showup 5s ease-in;
+animation: showup 2s ease-in;
   }
   
   div.headtxt:nth-of-type(2)>span {
     margin-left: 10px;
-    animation: slidein 2s; 
+    animation: slidein 1s; 
 
   }
   div.headtxt:last-of-type  {   
       margin-bottom: 10px;
-      animation: reveal 16s;
+      animation: reveal 8s;
   } 
   .row {
       box-sizing: border-box;

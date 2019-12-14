@@ -133,10 +133,10 @@ article a img:hover {
 /* Fixed sidenav, full height */
 .sidenav {
     float: left;
-
   }
   .box1 {
-      margin-left: 1em;
+    text-align:center ;
+  
   }
   .sidenav a:hover>span{
       color: black;
@@ -150,14 +150,14 @@ article a img:hover {
     background: none;
     width: 100%;
     text-align: center;
-    cursor: pointer;
+    
   }
-  .sidenav span a {
-    margin-top: 15em;
-}
+
   
   /* On mouse-over */
   .sidenav a:hover {
     color: #ffffff;
     overflow-x: visible;
+    cursor: pointer;
+    
   }
