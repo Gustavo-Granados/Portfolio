@@ -70,16 +70,17 @@ body > header {
    
     font-family: Meri;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 6.4%;
+    padding-bottom: 6.3%;
     color: black;
-    
     background-color :rgb(255, 238, 0);  
-    width: 88%; 
+    width: 100%; 
     border-bottom: solid black 2px;
     box-shadow: lightslategrey 2px 2px 2px 2px;
 }
-
+.box1 {
+    padding-top: 0px;
+}
 a {
     font-family: Noto;
     text-decoration: none;
@@ -158,7 +159,7 @@ a:hover{
     text-decoration-color: initial;
 }
 .sidenav span a {
-    margin-top: 15em;
+    margin-top: 16.7em;
 }
 .box1 {
     font-size: 2em;
@@ -179,15 +180,13 @@ article blockquote {
 }
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 25.5%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
+    height: 100%;
+    width: 250px;
+    position: relative;
+    z-index: 2;
+    float: right;
+    
     background-color :rgb(255, 238, 0);  
-    overflow-x: hidden;
-    padding-top: 20px;
     border-bottom: 2px solid black;
     
     box-shadow: lightslategrey  2px 2px 2px 2px;
@@ -202,7 +201,7 @@ article blockquote {
     display: block;
     border: none;
     background: none;
-    width: 100%;
+    width: 90%;
     text-align: center;
     cursor: pointer;
     outline: none;

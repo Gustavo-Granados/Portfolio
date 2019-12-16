@@ -121,7 +121,7 @@ a:hover{
 .box1 {
     font-size: 2em;
     box-sizing: border-box;
-    padding-top: 5%;
+    padding-top: 15%;
     text-align: center;
     
 }
@@ -337,8 +337,8 @@ animation: showup 2s ease-in;
         text-decoration-color: initial;
     }
     .box1 {
-        font-size: 2em;
-    }
+visibility: visible; 
+   }
     article {
         display: none;        
     }
@@ -357,5 +357,153 @@ animation: showup 2s ease-in;
       }
       
       /* On mouse-over */
+      @keyframes reveal {
+        0% {opacity:0;width:0px;}
+        20% {opacity:.8;width:0px;}
+        30% {width:460px;}
+          100% {opacity:1;}
+    }
+}
+
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    /* insert styles here */
+    body > header {
+   
+        font-family: Meri;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: black;
+        
+        background-color :rgb(255, 238, 0);  
+        width: 100%; 
+        border-bottom: solid black 2px;
+        box-shadow: lightslategrey 2px 2px 2px 2px;
+    }
+    nav a {
+        padding: 1.5%;
+        border: black solid 2px;
+        
+    
+    }
+    .homepic {
+        position: absolute;
+        width: 75px;
+        height: auto;
+        padding: 1%;
+        border: 2px solid black;
+        border-radius: 20px 20px 20px 20px;
+        margin: 5vw;
+    }
+    .box2 {
+        visibility: hidden;
+        display: none;
+    }
+    .box3 {
+        visibility: hidden;
+        display: none;
+    }
+    .box4 {
+        visibility: hidden;
+        display: none;
+    }
+    .homepic:hover {
+        opacity: 0;
+        transition-duration: .3s;
+    }
+    .homepic:first-of-type {
+        z-index: 2;
+    }
+    .homepicL {
+        position: absolute;
+        width: 75px;
+        height: auto;
+        padding: 1%;
+        border-radius: 20px 20px 20px 20px;
+        margin: 5vw;
+        border: 2px solid white;
+        background: rgb(209, 209, 209);
+    }
+    
+    a {
+        font-family: Noto;
+        text-decoration: none;
+      outline: 0;
+      color: #09110d;
+    
+    
+              transition: color .5s ease-out, underline .5s ease-out;
+    }
+    a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-line: underline ;
+        color: #353a38;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+    }
+    .box1 {
+        font-size: 2em;
+        box-sizing: border-box;
+        padding-top: 5%;
+        text-align: center;
+        
+    }
+    
+    article img.box2{
+        float: left;
+        display: block;
+        width: 60%;
+        height: auto;
+    }
+    @keyframes reveal {
+        0% {opacity:0;width:0px;}
+        20% {opacity:.8;width:0px;}
+        30% {width:560px;}
+          100% {opacity:1;}
+    }
+    .name{
+    
+        float: left;
+        font-size: 1.2em;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+    }
+    article  {  
+        font-family: Regular;
+        margin-top: 3em;
+    }
+    /* Fixed sidenav, full height */
+    
+    a>div { display: none; }
+    a:hover>div { 
+        display: inline; 
+        animation: showup 6s;
+        }
+    
+      /* Style the sidenav links and the dropdown button */
+      .sidenav a {
+        
+        text-decoration: none;
+        font-size: 25px;
+        color: #292020;
+        border: none;
+        background: none;
+        width: 95%;
+        cursor: pointer;
+        outline: none;
+      }
       
+      /* On mouse-over */
+      .sidenav a:hover {
+        color: #ffffff;
+        overflow-x: visible;
+      }
+    
+      footer {
+          background: grey;
+          display: block;
+      }
 }
