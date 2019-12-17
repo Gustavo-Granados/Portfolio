@@ -91,6 +91,14 @@ a {
 
           transition: color .5s ease-out, underline .5s ease-out;
 }
+.name{
+
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
 .servtable {
     font-family: Meri;
     font-size: 1em;

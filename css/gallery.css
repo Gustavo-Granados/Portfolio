@@ -49,6 +49,14 @@ div.headtxt {
     animation: reveal 3s ;
 
   }
+  .name{
+
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
   @keyframes showup {
     0% {opacity:0;}
     30% {opacity:0;}
@@ -93,7 +101,8 @@ a {
     text-decoration: none;
   outline: 0;
   color: #09110d;
- 
+  animation: showup 2s;
+
 
           transition: color .5s ease-out, underline .5s ease-out;
 }

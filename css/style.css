@@ -30,7 +30,8 @@
 }
  
 html {
-    
+    animation: showup 2s;
+
     margin: 0;
 }
 body {
@@ -106,6 +107,7 @@ a {
     text-decoration: none;
   outline: 0;
   color: #09110d;
+  animation: showup 2s;
 
 
           transition: color .5s ease-out, underline .5s ease-out;
@@ -182,7 +184,16 @@ a:hover>div {
   
   /* Optional: Style the caret down icon */
   
-  
+    @keyframes showup {
+    0% {opacity:0;}
+    30% {opacity:0;}
+    35% {opacity: 0.3;}
+    40% {opacity:0.4;}
+    50% {opacity:0.5;}
+    60% {opacity:0.7;}
+    100% {opacity:1;}
+    
+}
   /* Some media queries for responsiveness */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
