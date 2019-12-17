@@ -1,0 +1,79 @@
+/*
+    The stylesheet for the Tree Project
+    GUSTAVO G.
+    8/20/2019
+    WEST-MEC
+    Tree Project/css/style.css
+*/
+body {
+    /*Formats the body*/
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif
+    
+}     
+
+.imghead {
+    /*Formats the image/logo to be on the top of the page*/
+    /* ATTEMPTED FIX (currently not working)
+    border: 0px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    */
+    border-bottom:black solid 2px;
+    border-right: solid black 2px;
+}
+.buttonstyle {
+    /*Styles the buttons [USE IN NAV TAG]*/
+    border: black solid 2px;
+    background:lightseagreen;
+    color: white;
+    padding: 27px;    
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    display: block;
+    
+}
+.headtxt {
+    /*Formats the main heading on the page*/
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+}
+.mototxt {
+    /*Puts the motto as a quote*/
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.infohead {
+    /*Formats the heading above the paragraph(s) below*/
+    font-size: 30px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.pformat {
+    /*Formats the paragraph(s)*/
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.review {
+    font-family: monospace;
+    font-size: 15px;
+    width: 450px;
+    height: 240px;
+    text-align: center;
+    border: dotted black 2px;
+    margin: auto;
+    padding: 10px;
+}
+.contact {
+    /*Holds contact information at the bottom of the page [USE IN FOOTER TAG]*/
+    font-size: 25px;
+    text-align: left;
+
+}

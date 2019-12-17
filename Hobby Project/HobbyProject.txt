@@ -1,0 +1,20 @@
+Hobby Project 
+We will be doing a larger project at the end of this unit and it will involve a hobby that you do or find interesting. You will need to have pictures that you took yourself of either you or a friend doing that hobby. I will remind you every day but you can’t forget your pictures for the project. Get started today.
+
+Choose 2-5 school appropriate hobbies and make a website about it.
+index-Main Page
+How to get Started Page
+Inspiration for the hobby/Famous hobbyist
+Goals for your hobby/Gallery
+
+Listed Above Is the Absolute bare bottom 60% WOW ME and GET EXTRA CREDIT
+4-10 Page Website
+
+
+Your project is required to have all of these skills present in every slide of this project
+Margins and Padding modification
+Embedded hyperlinks
+Images 
+Custom colors
+Inheritance and or precedence
+Working navigation bar for cohesion

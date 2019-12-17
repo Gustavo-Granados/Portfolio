@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'tecnico';
+    src: url('fonts/tecnico_regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'good';
+    src: url('fonts/Sunda_Prada.ttf') format('truetype');
+}
+html {
+    background-color: salmon;
+}
+body {
+    margin: 0;
+	font-size: 1em;
+    line-height: 1.4;
+    
+    font-family: 'tecnico'; 
+}
+header {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+    border-bottom: salmon solid 5px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+body > header> a>img {
+    width: 20%;
+    display: block;
+    float: left;
+}
+header > nav {
+    font-family: Impact;
+    margin-top: 10px;
+}
+
+header >nav a{
+    color: rgb(218, 146, 12);
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+article {
+    float: left;
+    background-color: white;
+    font-size: 1.5em;
+    width: 40%;
+    border: 5px white solid;
+    border-radius: 0px 10px  10px 0px;
+    margin-bottom: auto;
+}
+article a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.additional {
+    position: absolute;
+    right: 0px;
+    top: 510px;
+    background-color: white;
+    font-size: 1.3em;
+    width: 58%;
+    border: 5px white solid;
+    
+    border-radius: 10px 0px  0px 10px;
+}
+.social {
+    height: 20px;
+    width: 20px;
+    display: inline;
+        
+}
+
+.imgsection {
+    float: right;
+   
+    
+    background-color: white;
+    font-size: 1.3em;
+    width: 58%;
+    border: 5px white solid;
+    border-radius: 10px 0px  0px 10px;
+}
+.imgsection > img {
+    width: 800px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: 5px rgb(207, 196, 196) solid;
+}
+.imgsection:hover {
+    background-image:url('images/main1.jpg');
+    -webkit-transition: 3s;
+    transition: 3s;
+}
+
+.contact {
+    background-color: white;
+    position: absolute;
+    top: 500px;
+    font-size: 1.3em;
+    width: 40%;
+    margin-top: 10px;
+    border: 5px white solid;
+    border-radius: 0px 10px  10px 0px;
+    
+}
+.contact a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.additional  a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    font-family: 'good';
+}
+header > nav >a:hover {
+   text-shadow: black 5px 5px 5px;
+    font-size: 2.2em;
+    
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    right: 350px;
+    
+    bottom: 0px;
+    display: block; 
+    background-color: white;
+    font-size: 1.3em;
+    width: 60%;
+    margin: 0 ;
+    border: 5px white solid;
+    border-radius: 10px 10px  0px 0px;
+}
